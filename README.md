@@ -1,1 +1,6 @@
-# msande-448-final-project
+# Cryptocurrency Alpha Models via Intraday Technical Trading
+
+This repository presents the code I authored for this project. The paper for this project is [here](https://jonathan-ling.github.io/artefacts/2021.06 Intraday technical trading for cryptocurrencies - paper.pdf).
+
+## Abstract
+Cryptocurrency, a digital currency maintained without a centralized authority, tends to be significantly more volatile than stocks, but returns can be significantly greater using high-frequency trading strategies. Further, non-technical signals, meaning data external to the price and orderbook information such as sentiment analysis on social media or Twitter posts, have traditionally been used as key indicators of cryptocurrency trends. In contrast, this paper seeks to explore sources of alpha or excess returns, that can be found from technical analysis alone, using a pairs trading strategy, lagged linear regression and three other machine learning models – NeuralProphet, XGBoost and recurrent neural networks. Generally, we found that the high volatility of cryptocurrency assets at the hourly level was challenging to model but still able to be profitably monetized. The pairs trading approach suffers from the fact that few coins are statistically co-integrated, however our lagged linear regression model performs best of all of the machine learning models over our trading test period with a Sharpe ratio of 3.34.
